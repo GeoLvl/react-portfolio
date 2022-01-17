@@ -5,6 +5,7 @@ import Education from './Education';
 const about = () => {
   return (
     <div>
+    <p>Hello ?</p>
       <div style={{width: '40%', float:"left"}}>
         <Education/>
       </div>
