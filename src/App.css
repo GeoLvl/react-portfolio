@@ -71,30 +71,42 @@
   font-size: 10vw;
   width: 60%;
   max-width: 60%;
-  /* background-color: cyan; */
+  color: #16161d;
   margin: 0.15em 0;
 }
 
 .intro {
-  /* background-color: rgb(123, 255, 0); */
+  color: #16161d;
   width: 40%;
   max-width: 40%;
   align-self: end;
 }
 
 .little-title-1 {
+  color: #16161d;
   font-size: 3.3vw;
   margin: 0;
 }
 
 .little-title-2 {
+  color: #16161d;
   font-size: 2vw;
   margin: 0 0 1.5em 0;
 }
 
 .little-title-3 {
+  color: #16161d;
   font-size: 1.1rem;
   margin-bottom: 0.2em;
+}
+
+
+/* FOOTER */
+
+
+.foot-style {
+  color: #16161d;
+  margin-top: 10rem;
 }
 
 
