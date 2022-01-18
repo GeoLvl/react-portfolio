@@ -113,4 +113,35 @@
 
 
 
+/* WEB */
+
+
+
+
+.project-container {
+  /* background-color: rgb(209, 32, 171); */
+  display: flex;
+  margin: 10em 0;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  filter: grayscale(100%);
+  transition: filter .4s ease-in-out;
+}
+.project-container:hover {
+  filter: none;
+}
+
+.project-desc {
+  /* background-color: darkorange; */
+  width: 60%;
+
+}
+
+.project-img {
+  width: 40%;
+}
+
+.project-img img {
+    width: 100%;
+}
 
