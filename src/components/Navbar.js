@@ -15,11 +15,11 @@ const navbar = () => {
         <div className="nav">
           <ul>
             <li className="nav-li">
-              <Link to="/web">Web</Link>
+              <Link to="/projects">Projects</Link>
             </li>
-            <li className="nav-li">
+            {/* <li className="nav-li">
               <Link to="/design">Design</Link>
-            </li>
+            </li> */}
             <li className="nav-li">
               <Link to="/about">About</Link>
             </li>

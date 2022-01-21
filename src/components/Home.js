@@ -1,6 +1,15 @@
+
 import React from "react";
 
-const home = () => {
+
+class Home extends React.Component {
+
+
+
+// const home = () => {
+
+render() {
+  
   return (
     <div className="wrapper">
       <div className="home-container">
@@ -22,6 +31,8 @@ const home = () => {
       </div>
     </div>
   );
-};
+// };
+}
+}
 
-export default home;
+export default Home;

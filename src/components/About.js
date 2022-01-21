@@ -1,19 +1,18 @@
-import React from 'react';
-import Experience from './Experience';
-import Education from './Education';
- 
+import React from "react";
+import Experience from "./Experience";
+import Education from "./Education";
+
 const about = () => {
   return (
-    <div className='wrapper'>
-
-      <div style={{width: '40%', float:"left"}}>
-        <Education/>
+    <div className="wrapper">
+      <div style={{ width: "40%", float: "left" }}>
+        <Education />
       </div>
-      <div style={{width: '60%', float:"right"}}>
+      <div style={{ width: "60%", float: "right" }}>
         <Experience />
       </div>
     </div>
-  )
-}
- 
+  );
+};
+
 export default about;
