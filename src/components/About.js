@@ -5,11 +5,13 @@ import Education from "./Education";
 const about = () => {
   return (
     <div className="wrapper">
-      <div style={{ width: "40%", float: "left" }}>
-        <Education />
+    <h1>About me</h1>
+      <div style={{ width: "60%", float: "left" }}>
+      <Experience />
       </div>
-      <div style={{ width: "60%", float: "right" }}>
-        <Experience />
+      <div style={{ width: "40%", float: "right" }}>
+        
+        <Education />
       </div>
     </div>
   );
